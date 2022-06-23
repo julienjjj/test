@@ -1,4 +1,4 @@
-(function (window){
+// (function (window){
   var yaakovGreeter = {};
   yaakovGreeter.name = "Yaakov";
   var greeting = "Hello";
@@ -6,9 +6,11 @@
     console.log(greeting + yaakovGreeter.name);
   }
 
-  window.yaakovGreeter = yaakovGreeter;
+//   window.yaakovGreeter = yaakovGreeter;
 
-})(window);
+// })(window);
+
+yaakovGreeter.sayHello();
 
 
 
