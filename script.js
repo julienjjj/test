@@ -1,5 +1,5 @@
-console.log(document.getElementById("title"));
-console.log(document instanceof HTMLdocument);
+// console.log(document.getElementById("title"));
+// console.log(document instanceof HTMLdocument);
 
 function sayHello() {
   var name =
